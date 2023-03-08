@@ -1,0 +1,11 @@
+{
+    "tasks": {
+        "start": "deno run -A --watch=static/,routes/ dev.ts",
+        "deploy": "deployctl deploy --token=$(shenv DENO_DEPLOY_TOKEN) --prod --project=askey main.ts"
+    },
+    "importMap": "./import_map.json",
+    "compilerOptions": {
+        "jsx": "react-jsx",
+        "jsxImportSource": "preact"
+    }
+}
