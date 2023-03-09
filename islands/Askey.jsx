@@ -28,13 +28,13 @@ export default (props) => {
                 <>
                     <p class='font-bold text-xl'>Result</p>
                     <div className='mt-10'>
-                        <h1 className='font-bold text-2xl'>Collects</h1>
+                        <h1 className='font-bold text-2xl'>Corrects</h1>
                         <p className='font-mono font-bold text-xl text-slate-500 mt-5'>
                             {correct}/{props.questions.length}
                         </p>
                     </div>
                     <div className='mt-10'>
-                        <h1 className='font-bold text-2xl'>Incollects</h1>
+                        <h1 className='font-bold text-2xl'>Incorrects</h1>
                         <p className='font-mono font-bold text-xl text-slate-500 mt-5'>
                             {incorrect}/{props.questions.length}
                         </p>
